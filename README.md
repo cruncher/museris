@@ -17,10 +17,11 @@ Data models and scraper for <a href="https://museris.lausanne.ch/">museris.lausa
 * or `python manage.py scrape_data <start_id> <end_id>` to scrape a subset of Objects
 * or `python manage.py scrape_data <ID>` to scrape a single Object
 
+Note: Object images inside `DataObjectImage` are not automatically downloaded, only the image URL is recorded. To sync and download the actual images, run `python manage.py get_object_images`
 
 # Data models
 
-Take a look at `models.py`.
+Defined in `models.py`.
 
 * `Institution`s are basically museums
 * `DataObject`s hold infomration about a single object (paintings, physical objects, …) referenced in the museums. Has a foreign-key to an `Institution`.
@@ -31,7 +32,6 @@ Take a look at `models.py`.
 * `DataObjectLatLong` hod a latitude / longitude pair for a single `DataObject`, if the object has geographic information
 * `DataObjectPerson` a many-to-many relation between `DataObject`s and `Person` including a role (e.g. "Author", "Curator", …)
 
-Note: Object images inside `DataObjectImage` are not automatically downloaded, only the image URL is recorded. To sync and download the actual images, run `python manage.py get_object_images`
 
 ## Limitations and possible improvements
 
