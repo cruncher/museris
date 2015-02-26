@@ -1,0 +1,15 @@
+beautifulsoup4==4.3.2
+progress==1.2
+pudb==2015.2
+Pygments==2.0.2
+requests==2.5.1
+Django>=1.7.4
+Fabric
+Pillow
+gunicorn
+easy-thumbnails
+django-extensions
+python-memcached
+psycopg2
+raven
+IPython
