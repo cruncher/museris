@@ -29,7 +29,7 @@ Defined in `models.py`.
 * `DataObjectImage` hold images (urls and actual images) related to a single `DataObject`
 * `DataObjectProperty` hold a single key (e.g. "Creation year") and value (e.g. "2001") related to a single `DataObject`
 * `PersonProperty` same as `DataObjectProperty` but for `Person`s, e.g. "date of birth", "bio", …
-* `DataObjectLatLong` hod a latitude / longitude pair for a single `DataObject`, if the object has geographic information
+* `DataObjectLatLong` hold a latitude / longitude pair for a single `DataObject`, if the object has geographic information
 * `DataObjectPerson` a many-to-many relation between `DataObject`s and `Person` including a role (e.g. "Author", "Curator", …)
 
 
