@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 from django.db import models, migrations
-import apps.museris_data.models
+import museris_data.models
 
 
 class Migration(migrations.Migration):
@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
             name='DataObjectImage',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('image', models.ImageField(null=True, upload_to=apps.museris_data.models.image_upload_to, blank=True)),
+                ('image', models.ImageField(null=True, upload_to=museris_data.models.image_upload_to, blank=True)),
                 ('image_url', models.URLField(null=True, blank=True)),
                 ('data_object', models.ForeignKey(related_name='images', to='museris_data.DataObject')),
             ],
