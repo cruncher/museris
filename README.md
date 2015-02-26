@@ -40,4 +40,4 @@ Note: Object images inside `DataObjectImage` are not automatically downloaded, o
 
 # Copyright
 
-Mmost objects in the Museris database are covered by copyright and may not be re-used. 
+Most objects and images in the Museris database are covered by copyright and may not be re-used. 
