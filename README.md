@@ -1,6 +1,6 @@
 # Museris
 
-Data models and scraper for https://museris.lausanne.ch/ developed in the context of the <a href="http://make.opendata.ch/wiki/event:2015-02">2015 Swiss Open Cultural Data Hackathon</a>.
+Data models and scraper for <a href="https://museris.lausanne.ch/">museris.lausanne.ch</a> developed in the context of the <a href="http://make.opendata.ch/wiki/event:2015-02">2015 Swiss Open Cultural Data Hackathon</a>.
 
 
 
