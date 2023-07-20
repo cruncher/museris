@@ -1,7 +1,7 @@
 beautifulsoup4==4.3.2
 progress==1.2
 pudb==2015.2
-Pygments==2.7.4
+Pygments==2.15.0
 requests==2.20.0
 Django>=1.7.4
 Fabric
